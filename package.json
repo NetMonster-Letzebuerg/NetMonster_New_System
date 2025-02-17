@@ -1,7 +1,7 @@
 {
-	"name": "netmonster_portugal_system",
+	"name": "netmonster_luxembourg_system",
 	"version": "1.0.0",
-	"description": "NetMonster Portugal Sistema Core",
+	"description": "NetMonster Luxembourg",
 	"main": "server/index.js",
 	"type": "module",
 	"scripts": {
