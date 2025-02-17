@@ -1,40 +1,40 @@
-# NetMonster Portugal Sistema Core
+# NetMonster Luxembourg Coeur du systéme
 
-Status do desenvolvimento: alpha
+Status du développement: alpha
 
-NetMonster Portugal - Sistema de Frontend e Explicação
+NetMonster Luxembourg - Système Frontend et explication
 
-**Descrição Simplificada:**
+**Description simplifiée:**
 
-O NetMonster Portugal gerencia a coleta e processamento de dados de localização, enviando-os para as bases de dados das operadoras nacionais. Este sistema inclui:
+NetMonster Luxembourg gère la collecte et le traitement des données de localisation et les transmet aux bases de données des opérateurs nationaux. Ce qui comprends:
 
-**Funcionalidades:**
+**Fonctionnalité:**
 
-1. **Atualizações Regulares do NTM:**
-   - Mantém online um arquivo NTM específico para cada operadora, com atualizações regulares.
+1. **Mise à jour de la base de donnée NTM:**
+   - Maintient en ligne de la base de donnée en format NTM pour chaque opérateur, mises à jour réguliérement
 
-2. **Envio de Dados de Localização:**
-   - Usuários submetem informações em JSON através do endpoint.
+2. **Envoi de données de localisation:**
+   - Les utilisateurs somettent des informations en JSON au endpoint
 
-3. **Integração com Bases de Dados:**
-   - Facilita a integração eficiente direcionando as informações para as bases de dados de cada operadora.
+3. **Intégration des bases de données**
+   - Facilite l'intégration des donées soumises par les utilisateurs au sein de la base de données de chaques opérateurs
 
-4. **Processamento Flexível:**
-   - Permite decisões personalizadas no processamento das informações.
+4. **Traitement flexible:**
+   - Permet de prendres des décisions présonnalisées lors du traitement des données soumis pas l'utilisateur
 
-**Informações de Utilização Diária:**
+**Information d'utilsation quotidienne:**
 
-   - Fornece dados sobre utilizadores ativos diariamente.
-   - Registra modelos de smartphones mais usados por marca.
+   - Fournit des données sur les utilisateurs actifs quotidiennement
+   - Enregistre les smartphones les plus utilisés par marque
 
-**Registo de Modelos por Operadoras:**
+**Enregistrement du modèle par opérateur:**
 
-   - Captura e regista os modelos de smartphones mais usados por cada operadora.
-   - Inclui estatísticas relevantes para Vodafone Portugal, NOS, MEO e Digi Portugal.
+   - Capture et enregistre les modèles de smartphones les plus utilisés par les usagers de chaques opérateurs
+   - Comprends les statistique pour POST,Tango,LOL et Orange LU
 
-**Frontend NetMonster Portugal:**
-   - Sistema de interface exibindo estatísticas nacionais e informações específicas para Vodafone Portugal, NOS, MEO e Digi Portugal.
-   - Permite acesso às bases de dados de cada operadora nacional.
+**Frontend NetMonster Luxembourg:**
+   - Affichage des statistique nationales et informations pour chaques opérateurs luxembourgeois
+   - Accées à la base de données de chaques opérateurs national
 
 # Project Setup and Start Guide
 
@@ -82,3 +82,5 @@ Make sure to set these variables according to your environment before starting t
 
 This projects uses [Biome](https://biomejs.dev/guides/getting-started/) to lint and format all JavaScript files. Make sure to install the [VSCode extension](https://biomejs.dev/guides/integrate-in-editor/#vs-code) to have support for Biome while developing.
 
+## Original Projet
+This projects is base in [The NetMonster_Portugal_system](https://github.com/luisbaker/NetMonster_Portugal_system) From Luis Baker 
